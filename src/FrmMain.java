@@ -33,9 +33,9 @@ public class FrmMain extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
-        btnLibros.setBackground(new java.awt.Color(255, 102, 0));
+        btnLibros.setBackground(new java.awt.Color(0, 204, 204));
         btnLibros.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
         btnLibros.setText("Libros");
         btnLibros.addActionListener(new java.awt.event.ActionListener() {
@@ -44,7 +44,7 @@ public class FrmMain extends javax.swing.JFrame {
             }
         });
 
-        btnNombres.setBackground(new java.awt.Color(51, 255, 0));
+        btnNombres.setBackground(new java.awt.Color(0, 204, 204));
         btnNombres.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
         btnNombres.setText("Nombres");
         btnNombres.addActionListener(new java.awt.event.ActionListener() {
@@ -53,8 +53,8 @@ public class FrmMain extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(102, 0, 102));
+        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 102, 102));
         jLabel1.setText("Taller #1");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -69,16 +69,16 @@ public class FrmMain extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnNombres))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(95, 95, 95)
+                        .addGap(77, 77, 77)
                         .addComponent(jLabel1)))
                 .addContainerGap(59, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(66, Short.MAX_VALUE)
+                .addContainerGap(65, Short.MAX_VALUE)
                 .addComponent(jLabel1)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnLibros)
                     .addComponent(btnNombres))
