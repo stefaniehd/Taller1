@@ -72,6 +72,7 @@ public class FrmLibros extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
         jLabel4.setText("Comprados:");
 
+        btnAceptar.setBackground(new java.awt.Color(0, 204, 204));
         btnAceptar.setText("Agregar");
         btnAceptar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

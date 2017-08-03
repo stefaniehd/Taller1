@@ -251,6 +251,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnClean1">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Limpiar Matriz"/>
       </Properties>
       <Events>
@@ -259,6 +262,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnCreate1">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="0" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Crear Matriz"/>
       </Properties>
       <Events>

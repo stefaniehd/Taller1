@@ -202,6 +202,7 @@ public class FrmNombres extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
         jLabel1.setText("Ingrese un nombre");
 
+        btnClean1.setBackground(new java.awt.Color(0, 204, 204));
         btnClean1.setText("Limpiar Matriz");
         btnClean1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -209,6 +210,7 @@ public class FrmNombres extends javax.swing.JFrame {
             }
         });
 
+        btnCreate1.setBackground(new java.awt.Color(0, 204, 204));
         btnCreate1.setText("Crear Matriz");
         btnCreate1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
